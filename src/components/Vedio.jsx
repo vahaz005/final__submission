@@ -4,6 +4,7 @@ import gsap from 'gsap' ;
 gsap.registerPlugin(ScrollTrigger);
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+
 function Vedio() {
     gsap.fromTo(".vediowrapper video" ,
 {
@@ -29,7 +30,9 @@ function Vedio() {
   return (
     <>
     <div className="vediowrapper">
-   <video  src="./public/intro-video.mp4" autoPlay></video>
+    <video loop muted playsInline autoPlay>
+    <source src="./public/intro-video.mp4" type="video/mp4"/>
+</video>
         </div>
         </>
   )

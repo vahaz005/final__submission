@@ -8,6 +8,8 @@ import { useScroll , useTransform } from 'framer-motion';
 import { Tween } from 'gsap/gsap-core';
 
 
+gsap.registerPlugin(ScrollTrigger);
+
 function Recent() {
   let leftbutton = gsap.timeline({
     scrollTrigger:{
@@ -22,7 +24,7 @@ function Recent() {
     yPercent:50,
     opacity:0  , 
     duration:{min:10},
-    animation:Tween
+    // animation:Tween
 
   }
   ,
@@ -65,7 +67,7 @@ function Recent() {
   
   })
   gsap.to(".rights1" , {
-    x:-160,
+    x:110,
   
 
  
