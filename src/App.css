@@ -1,0 +1,32 @@
+.dark__theme{
+  background-color: #121315; 
+  color: #e0eeee;
+
+}
+.light__theme{
+  color: #3f4144;
+  background: #eef3f3;
+}
+/* App.css */
+.fog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+ 
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #e0eeee; /* Cursor color */
+  mix-blend-mode: difference; /* Blend mode for cursor */
+  pointer-events: none;
+  z-index: 2;
+}

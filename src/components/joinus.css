@@ -1,0 +1,209 @@
+.join__main{
+    
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    gap: 70px;
+    flex-direction: column;
+    padding-top: 10rem;
+    
+}
+.sub1__join__main{
+    width: 100%; 
+    height: 40%; 
+    display: flex ;
+    justify-content: center; 
+
+}
+.sub__sub{
+    width: 80%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    font-family:  "Dirtyline 36Daysoftype 2022";
+    font-size: 10rem;
+    line-height: 7.3rem; 
+    letter-spacing: -6px;
+    
+
+}
+.sub__sub__div1{
+    display: block; 
+    position: relative;
+   
+    
+    
+}
+.sub__sub__div2{
+    display: block; 
+    position: relative;
+    text-align: center ;
+    
+    
+}
+.sub__sub__div3{
+    display: block; 
+    position: relative;
+    text-align: center ;
+    
+    
+}
+
+.main2{
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+   
+
+}
+.main2__suvdiv{
+    display: flex;
+    justify-content: space-between ; 
+    align-items: center; 
+    width: 79%; 
+    height: 30%;
+    font-size: 3rem;
+    line-height: 2.5rem ;
+    font-family: 'syne' , sans-serif;
+    
+    border-bottom: 1px solid white;
+    transition: width 0.5s ease-in-out; 
+
+
+
+}
+.main2__suvdiv img{
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+.main2__suvdiv:hover {
+    width: 110% ;
+    
+}
+.main2__suvdiv:hover .main2__suvdiv img{ 
+    transform: rotate(360deg);
+    
+}
+.time__to__roar__main{
+    height: 100vh; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22rem;
+}
+.time__to__roar__main__subdiv{
+    height: 50%; 
+     
+    font-size: 7rem;
+    line-height: 5.35rem;
+    letter-spacing: -2px;
+    display: flex; 
+    width: 90%;
+
+
+
+}
+.time__to{
+    display: block; 
+    text-align: start;
+}
+.sub__roar{
+    display: flex;
+    flex-direction: column; 
+    font-size: 9rem;
+    line-height: 7.1rem;
+    letter-spacing: -2px;
+    
+    position: relative;
+    
+    font-family:  "Dirtyline 36Daysoftype 2022"; 
+    font-weight: 400;
+
+}
+.lets__talk button {
+  
+    font-size: 1rem;
+    left: 23rem;
+    position: relative;
+    top: 9rem;
+    display: flex;
+    height: 20%;
+    width: 241%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: #c5fcfc;
+    color: black;
+    background-color: #c5fcfc;
+}
+.foot1{
+    border-top: 1.5px solid white; 
+    width: 90%;
+    height: 7%;
+    position : relative; 
+    bottom: 3rem;
+}
+.foot2{
+    display: grid ;
+    height: 10%; 
+    width: 90%; 
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    position: relative;
+    top: -5rem;
+    
+    font-family: 'syne' , sans-serif;
+    
+}
+.foot2 div{
+    display: flex;
+    flex-direction: column; 
+    height: 43%; 
+    justify-content: space-between;
+
+}
+.foot2 div span{
+    display: block;
+}
+.foot2 div h4{
+    font-weight: 200;
+    font-size: 2rem;
+    position: relative;
+    top: -2.7rem;
+}
+.div3 span , h4{
+right: 0rem;   
+position: relative; 
+}
+
+.foot3{
+    border-bottom: 1.5px solid white; 
+    width: 90%;
+    height: 7%;
+    position : relative; 
+    bottom: 7rem;
+}
+.up{
+    height: 10%; 
+    width: 90%; 
+    display: flex;
+    justify-content: space-between; 
+    color:#e0eeee;
+    font-family: 'syne ' , sans-serif;
+    font-size: 1.2rem;
+    position: relative; 
+    top: -3rem;
+
+}
+.up div{
+    position: relative; 
+    top: 1rem;
+}
+.trionn__svg , .trionn__svg img{
+    width: 100%; 
+
+}
