@@ -1,4 +1,4 @@
-import { useState  , useEffect} from 'react'
+import { useState  , useEffect, useCallback} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -12,6 +12,7 @@ import { useGlobalcontext } from './components/Appcontext';
 
 import Cursor from './components/Cursor';
 import Menu from './pages/Menu';
+import { debounce } from 'lodash';
 
  
 function App() {
@@ -19,28 +20,32 @@ const {theme , setTheme } = useGlobalcontext();
 
   
   
-  const [mousePosition, setMousePosition] = useState({
-    x: 0,
-    y: 0
-  });
+const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorVariant, setCursorVariant] = useState("default");
 
 
-  useEffect(() => {
-    const mouseMove = e => {
-      setMousePosition({
-        x: e.clientX,
-        y: e.clientY
-      })
-    }
+  
+  const updateMousePosition = useCallback(debounce((e) => {
+    setMousePosition({
+      x: e?.clientX,
+      y: e?.clientY
+    });
+  }, 200), []);
 
-    window.addEventListener("mousemove", mouseMove);
-    window.addEventListener("scroll" , mouseMove) ;
+  const updateMousePositionOnScroll = useCallback(() => {
+    updateMousePosition();
+  }, [updateMousePosition]);
+
+  useEffect(() => {
+    window.addEventListener("mousemove", updateMousePosition);
+    window.addEventListener("scroll", updateMousePositionOnScroll);
 
     return () => {
-      window.removeEventListener("mousemove", mouseMove);
-    }
-  }, []);
+      window.removeEventListener("mousemove", updateMousePosition);
+      window.removeEventListener("scroll", updateMousePositionOnScroll);
+    };
+  }, [updateMousePosition, updateMousePositionOnScroll]);
+  
   const variants = {
     default: {
       x: mousePosition.x - 16,
@@ -69,6 +74,7 @@ const {theme , setTheme } = useGlobalcontext();
     <Header/>
     <Home/>
     <Menu/>
+
     
       
      

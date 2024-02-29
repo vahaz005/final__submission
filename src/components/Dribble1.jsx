@@ -5,12 +5,14 @@ gsap.registerPlugin(ScrollTrigger);
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GsapMagnetic from './gsap';
 
+gsap.registerPlugin(ScrollTrigger);
+
 function Dribble1() {
     gsap.fromTo(".upper1" ,
     {
       x:0 , 
       y:0 ,
-      rotat:0 ,
+      rotate:0 ,
     
     } ,{
     
