@@ -72,7 +72,7 @@ const toggleOverlay = () => {
                  <img src={(isPlaying? "https://trionn.com/_next/static/media/sound.b0076745.svg":"https://trionn.com/_next/static/media/sound-mute.99b17403.svg")} alt="" />
              </div>
              <audio ref={audioRef} loop>
-        <source src="/assets/audio/jungle.mp3" type="audio/mp3" />
+        <source src="https://trionn.com//assets/audio/jungle.mp3" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
              </button>
