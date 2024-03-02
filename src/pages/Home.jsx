@@ -10,10 +10,6 @@ import Imagereverse  from '../components/Imagereverse';
 import Drag from '../components/Drag';
 import Grid from '../components/Grid';
 import Scrolling from '../components/Scrolling';
-<<<<<<< HEAD
-
-=======
->>>>>>> 6a566d9accfa44fa13174d675e6fd0591533fc16
 import Joinus from '../components/Joinus';
 import Who from '../components/Who';
 import Dribble1 from '../components/Dribble1';
@@ -27,10 +23,7 @@ function Home() {
       setIsLoading(false);
     }, 5000); // Simulating a 5-second loading time
   }, []);
-<<<<<<< HEAD
  
-=======
->>>>>>> 6a566d9accfa44fa13174d675e6fd0591533fc16
 
   return (
     
@@ -83,10 +76,7 @@ function Home() {
                   </div>
                 </div>
     </div>
-<<<<<<< HEAD
     
-=======
->>>>>>> 6a566d9accfa44fa13174d675e6fd0591533fc16
     <Vedio/>
    
     <Recent/>

@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.45",
     "framer-motion": "^11.0.8",
+    "gh-pages": "^6.1.1",
     "gl-react": "^5.2.0",
     "gl-react-dom": "^5.2.1",
     "gsap": "^3.12.5",

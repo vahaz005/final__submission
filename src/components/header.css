@@ -102,7 +102,6 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
 
-<<<<<<< HEAD
 }
 .sound{
     display: flex;
@@ -114,6 +113,4 @@ border-radius: 50%;
     height: 32px;
     border: none;
     background: hsla(222, 6%, 67%, .2);
-=======
->>>>>>> 6a566d9accfa44fa13174d675e6fd0591533fc16
 }
