@@ -267,7 +267,7 @@ useEffect(()=>{
 
           }}>
             <div>Dribble</div>
-            <img className={(hover)?"socail__image__hover":"social__image"} src="./public/assets (2)/asset 21.svg" alt="" />
+            <img className={(hover)?"socail__image__hover":"social__image"} src="/public/assets (2)/asset 21.svg" alt="" />
           </div>
           <div className='main2__suvdiv' onMouseMove={(e)=>{
             e.preventDefault( ) ;
@@ -279,7 +279,7 @@ useEffect(()=>{
 
           }}>
             <div>LinkedIn</div>
-            <img className={(hover)?"socail__image__hover":"social__image"}   src="./public/assets (2)/asset 22.svg" alt="" />
+            <img className={(hover)?"socail__image__hover":"social__image"}   src="/public/assets (2)/asset 22.svg" alt="" />
           </div>
           <div className='main2__suvdiv' onMouseMove={(e)=>{
             e.preventDefault( ) ;
@@ -291,7 +291,7 @@ useEffect(()=>{
 
           }}>
             <div>Facebook</div>
-            <img className={(hover)?"socail__image__hover":"social__image"}  src="./public/assets (2)/asset 25.svg" alt="" />
+            <img className={(hover)?"socail__image__hover":"social__image"}  src="/public/assets (2)/asset 25.svg" alt="" />
           </div>
           <div className='main2__suvdiv' onMouseMove={(e)=>{
             e.preventDefault( ) ;
@@ -303,7 +303,7 @@ useEffect(()=>{
 
           }}>
             <div>Behance</div>
-            <img className={(hover)?"socail__image__hover":"social__image"}  src="./public/assets (2)/asset 24.svg" alt="" />
+            <img className={(hover)?"socail__image__hover":"social__image"}  src="/public/assets (2)/asset 24.svg" alt="" />
           </div>
           <div className="main2__suvdiv" onMouseMove={(e)=>{
             e.preventDefault( ) ;
@@ -316,7 +316,7 @@ useEffect(()=>{
           }}>
           <div>instagram</div>
            
-          <img className={(hover)?"socail__image__hover":"social__image"}  src="./public/assets (2)/asset 23.svg" alt="" />
+          <img className={(hover)?"socail__image__hover":"social__image"}  src="/public/assets (2)/asset 23.svg" alt="" />
           </div>
           </div>
 
@@ -360,7 +360,7 @@ useEffect(()=>{
       <div className="up">
       <p>©2024 TRIONN<sup>®</sup>
       </p>
-      <div><img src="./public/assets (2)/asset 26.svg" alt="" /></div>
+      <div><img src="/public/assets (2)/asset 26.svg" alt="" /></div>
 
 
       </div>

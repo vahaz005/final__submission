@@ -22,7 +22,7 @@ const Loader = () => {
   }, []);
   return (
     <section className='loader__main'> <div className='loader' >
-    <img style={{ width: `${progress}%` }  } src="./public/assets (2)/loading.svg" alt="" />
+    <img style={{ width: `${progress}%` }  } src="/public/assets (2)/loading.svg" alt="" />
         </div></section>
    
   );
