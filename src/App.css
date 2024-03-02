@@ -1,9 +1,16 @@
+/* Webfont: Dirtyline36Daysoftype2022-Reg */@font-face {
+  font-family: myfont;
+  src: url("/public/font.ttf");
+         
+}
 .dark__theme{
   background-color: #121315; 
   color: #e0eeee;
   --primary : #c5fcfc;
   --overlay:#121315 ;
 overflow-x: hidden;
+--font:myfont;
+
 
 }
 .light__theme{
@@ -12,6 +19,7 @@ overflow-x: hidden;
   --primary:#3f4144;
   --overlay:#eef3f3;
   overflow-x: hidden;
+  --font:myfont;
   
 }
 ::-webkit-scrollbar {

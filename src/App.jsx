@@ -65,7 +65,7 @@ function App() {
   return (
     <>
       <Header />
-    <Overlay show={isOverlayVisible}  style={{ backgroundColor:  'rgb(23, 24, 26)' }}>
+    <Overlay show={isOverlayVisible} >
         <Menu />
       </Overlay>
       <Home />

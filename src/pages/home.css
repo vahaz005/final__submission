@@ -38,7 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: "Dirtyline 36Daysoftype 2022";
+    font-family: var(--font);
     font-weight: 400;
     font-size: 7.125rem;
     line-height: 4.25rem;
@@ -52,7 +52,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: "Dirtyline 36Daysoftype 2022";
+    font-family: var(--font);
     font-weight: 400;
     font-size: 7.125rem;
     line-height: 7.25rem;

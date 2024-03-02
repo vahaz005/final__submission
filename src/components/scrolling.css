@@ -14,7 +14,7 @@
 
   font-size: 8rem; 
   line-height: 1.05rem; 
-  font-family: "Dirtyline 36Daysoftype 2022";
+  font-family: var(--font);
   overflow: hidden;
    
   width: 100%; 
@@ -51,7 +51,7 @@
 
   font-size: 8rem; 
   line-height: 1.05rem; 
-  font-family: "Dirtyline 36Daysoftype 2022";
+  font-family: var(--font);
   overflow: hidden;
    
   width: 100%; 

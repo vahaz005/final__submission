@@ -23,7 +23,7 @@
 .rights1{
     color:  rgba(31,32,34,.4);;
   display : block;
-  font-family: "Dirtyline 36Daysoftype 2022";
+  font-family: var(--font);
     font-size: 8rem;
     line-height: 7.9rem;
     letter-spacing: -6px;
@@ -46,7 +46,7 @@
 .rights2{
     display: block;
     
-    font-family: "Dirtyline 36Daysoftype 2022";
+    font-family: var(--font);
     font-size: 8rem;
     line-height: 7.9rem;
     letter-spacing: -6px;

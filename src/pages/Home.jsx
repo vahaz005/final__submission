@@ -81,9 +81,9 @@ function Home() {
    
     <Recent/>
    
-     <Image url= {"./public/assets (2)/asset 4.webp"} title = {"loftloom"} top={"2rem"}/>
-    <Imagereverse url={"./public/assets (2)/asset 5.webp"} title={"imusic"}/>
-    <Image2 url= {"./public/assets (2)/asset 6.webp"} title = {"technis"}/>
+     <Image url= {"/public/assets (2)/asset 4.webp"} title = {"loftloom"} top={"2rem"}/>
+    <Imagereverse url={"/public/assets (2)/asset 5.webp"} title={"imusic"}/>
+    <Image2 url= {"/public/assets (2)/asset 6.webp"} title = {"technis"}/>
     <Who/>
     <Grid/>
     <Drag/>

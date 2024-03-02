@@ -134,7 +134,7 @@ margin-bottom: 4rem;
 
 }
 .currsub{
-    font-family: "Dirtyline 36Daysoftype 2022";
+    font-family: var(--font);
     font-size: 3rem;
     line-height: 2.6rem;
     transition: all .5s ease;
