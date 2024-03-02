@@ -11,7 +11,7 @@
     flex-direction: column;
     text-align: left;
     position: relative;
-    top: 9rem;
+   
 }
 
 .sub__container{
@@ -20,9 +20,12 @@
    display: flex;
 }
 .leftalone{
-    font-size : 20px;;
+  
+    font-size : 4rem;
+    
     font-weight: 400; 
     font-family: "Dirtyline 36Daysoftype 2022";
+
     
 
 }
@@ -75,7 +78,7 @@ flex-direction: row-reverse;
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #c5fcfc;
-    color: #c5fcfc;
-    background-color: #121315;
+    border-color: var(--primary);
+    color: var(--primary);
+
 }

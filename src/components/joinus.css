@@ -22,7 +22,7 @@
     flex-direction: column; 
     font-family:  "Dirtyline 36Daysoftype 2022";
     font-size: 10rem;
-    line-height: 7.3rem; 
+    line-height: 9.3rem; 
     letter-spacing: -6px;
     
 
@@ -30,21 +30,43 @@
 .sub__sub__div1{
     display: block; 
     position: relative;
-   
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
     
     
 }
 .sub__sub__div2{
     display: block; 
     position: relative;
-    text-align: center ;
+    text-align: center ;  color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
+    position: relative;
+    top: -1rem;
     
     
 }
 .sub__sub__div3{
     display: block; 
     position: relative;
-    text-align: center ;
+    text-align: center ;  color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
+    position: relative;
+    top: -2rem;
     
     
 }
@@ -74,18 +96,18 @@
 
 
 }
-.main2__suvdiv img{
+.social__image{
     transform: rotate(0deg);
     transition: transform 0.5s;
+}
+.socail__image__hover{
+    transform: rotate(360deg);
 }
 .main2__suvdiv:hover {
     width: 110% ;
     
 }
-.main2__suvdiv:hover .main2__suvdiv img{ 
-    transform: rotate(360deg);
-    
-}
+
 .time__to__roar__main{
     height: 100vh; 
     width: 100%; 
@@ -99,7 +121,7 @@
     height: 50%; 
      
     font-size: 7rem;
-    line-height: 5.35rem;
+    line-height: 7.35rem;
     letter-spacing: -2px;
     display: flex; 
     width: 90%;
@@ -110,13 +132,21 @@
 .time__to{
     display: block; 
     text-align: start;
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
 }
 .sub__roar{
     display: flex;
     flex-direction: column; 
     font-size: 9rem;
-    line-height: 7.1rem;
+    line-height: 9.1rem;
     letter-spacing: -2px;
+   
     
     position: relative;
     
@@ -124,7 +154,7 @@
     font-weight: 400;
 
 }
-.lets__talk button {
+.lets__talk__button{
   
     font-size: 1rem;
     left: 23rem;
@@ -137,9 +167,42 @@
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #c5fcfc;
+    border-color: var(--primary);
     color: black;
-    background-color: #c5fcfc;
+    background-color: var(--primary);
+}
+.lets__talk__light{
+  
+    font-size: 1rem;
+    left: 23rem;
+    position: relative;
+    top: 9rem;
+    display: flex;
+    height: 20%;
+    width: 241%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: #3f4144;.lets__talk__button{
+  
+        font-size: 1rem;
+        left: 23rem;
+        position: relative;
+        top: 9rem;
+        display: flex;
+        height: 20%;
+        width: 241%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9999px;
+        border-width: 2px;
+        border-color: var(--primary);
+        color: black;
+        background-color: var(--primary);
+    }
+    color: white;
+    background-color: #3f4144;
 }
 .foot1{
     border-top: 1.5px solid white; 
@@ -207,3 +270,37 @@ position: relative;
     width: 100%; 
 
 }
+.trionn__svg:hover{
+    cursor: url("https://trionn.com/assets/images/torch.png") , pointer;
+}
+.mask{
+    background-color: #121315;
+    mask: radial-gradient(
+      circle at var(--mouse-x) var(--mouse-y),
+      hsl(0 40% 100%/0.15),
+      transparent 200px
+    );
+    -webkit-mask: radial-gradient(
+      circle at var(--mouse-x) var(--mouse-y),
+      hsl(0 40% 100%/0.15),
+    transparent 200px
+    );
+}
+.roar{
+    position: relative ;
+    top: -1rem;
+ 
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
+}
+@keyframes rights1 {
+    to {
+        background-size: 100% 100%;
+    }
+        
+    }

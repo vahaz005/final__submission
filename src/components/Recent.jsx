@@ -76,7 +76,7 @@ function Recent() {
       trigger :".rights1",
       scrub:1,
       start:"top bottom" ,
-      end:"bottom bottom",
+     
 
       toggleActions : "play pause reverse complete"
     }

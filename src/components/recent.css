@@ -21,32 +21,50 @@
     
 }
 .rights1{
-  
+    color:  rgba(31,32,34,.4);;
   display : block;
   font-family: "Dirtyline 36Daysoftype 2022";
     font-size: 8rem;
-    line-height: 5.9rem;
+    line-height: 7.9rem;
     letter-spacing: -6px;
     position: relative;
     left: 0.11rem;
     
+    background-clip: text;
+    background-repeat:no-repeat ;
+    background-size: 0% 100%;
+    background-image:  linear-gradient(90deg , #c5fcfc , #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline:view() ;
+    
     
     
     
     
 }
+
 .rights2{
-    display : block;
+    display: block;
+    
     font-family: "Dirtyline 36Daysoftype 2022";
-      font-size: 8rem;
-      line-height: 5.9rem;
-      letter-spacing: -6px;
-      position: relative;
-      left: -15.5rem;
+    font-size: 8rem;
+    line-height: 7.9rem;
+    letter-spacing: -6px;
+    position: relative;
+    top: -1rem;
+    left: -15.5rem;
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
+}
       
       
 
-}
+
 .right div{
     
     height: 8%;
@@ -79,8 +97,13 @@
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #c5fcfc;
-    color: #c5fcfc;
+    border-color: var(--primary);
+    color: var(--primary);
     background-color: #121315;
 }
-
+@keyframes rights1 {
+    to {
+        background-size: 100% 100%;
+    }
+        
+    }

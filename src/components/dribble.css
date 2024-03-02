@@ -31,7 +31,7 @@ margin-top: 16rem;
     overflow: hidden;
 }
 .behind{
-   top: 400rem;
+   top: 1117vh;
     gap: 5px;
     position: absolute;
     width: 40%;
@@ -67,7 +67,7 @@ margin-top: 16rem;
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #c5fcfc;
-    color: #c5fcfc;
+    border-color: var--primary;
+    color: var--primary;
    
 }

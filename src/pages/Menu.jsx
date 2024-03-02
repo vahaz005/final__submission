@@ -1,17 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './men.css'
 import { useState } from 'react';
 import GsapMagnetic from '../components/gsap';
+import { useGlobalcontext } from '../components/Appcontext';
+
 function Menu() {
+    const {theme , setTheme} = useGlobalcontext() ;
     const [isHovered1, setIsHovered1] = useState(false);
     const [isHovered2, setIsHovered2] = useState(false);
     const [isHovered3, setIsHovered3] = useState(false);
     const [isHovered4, setIsHovered4] = useState(false);
     const [isHovered5, setIsHovered5] = useState(false);
+
+    useEffect(() => {
+        if(theme == "dark__theme") {
+            document.querySelector(".menu__main__right__sub1").computedStyleMap.color = "black" ;
+        } else {
+            document.querySelector(".menu__main__right__sub1").computedStyleMap.color = "red" ;
+
+
+        }
+
+    } , [theme])
+    
   return (
    <>
-   <section className='menu__main'>
-    <div className='menu__main__right'>
+    <section className='menu__main'>
+    <div className={(isHovered1 || isHovered2||isHovered3||isHovered4||isHovered5)?"menu__main__right__dark" : "menu__main__right"}>
         <div   className='menu__main__right__sub1'  onMouseEnter={() => setIsHovered1(true)}
         onMouseLeave={()=> setIsHovered1(false)}>
             <div className={`dot1 ${isHovered1 ? 'hovered' : ''}`}></div>
@@ -45,6 +60,7 @@ function Menu() {
        
     </div>
    </section>
+  
    </>
   )
 }

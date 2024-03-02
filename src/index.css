@@ -1,6 +1,8 @@
 #root{
   box-sizing: border-box; 
   margin: 0;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
 }
 body{
   scrollbar-color: rgba(197,252,252,.5) #121315;

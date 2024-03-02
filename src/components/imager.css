@@ -69,7 +69,7 @@ top: -4rem;
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #c5fcfc;
-    color: #c5fcfc;
-    background-color: #121315;
+    border-color: var(--primary);
+    color: var(--primary);
+
 }

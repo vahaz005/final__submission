@@ -19,7 +19,14 @@ top: 1rem;
 
 }
 .togglemode1 button{
-    border: none; 
+    display: flex;
+    justify-content: center;
+    border-radius: 9999px;
+    /* alignment-baseline: middle; */
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border: none;
     background: hsla(222, 6%, 67%, .2);
 }
 .togglemode{
@@ -29,6 +36,9 @@ top: 1rem;
 }
 .togglemode2{
     background: hsla(222, 6%, 67%, .2);
+    width: 32px; 
+    height: 32px; 
+    border-radius: 9999px;
 }
 
 .togglemode2 img{
@@ -39,18 +49,21 @@ border-radius: 50%;
 
 }
 .logo img{
-    color:black;
+    color:transparent;
 }
 .img{
     background: hsla(222, 6%, 67%, .2);
     border-radius: 50%;
     height: 35px;
     width: 35px;
+    top: 30px;
+    right: 54px;
 }
 .text{
 
   font-family: "Oswald", sans-serif;
   letter-spacing: -2px;
+  width: 3rem;
 
 }
 .menu{
@@ -78,4 +91,15 @@ border-radius: 50%;
     background-color: #e0eeee;
     height: 1px;
     
+}
+.text__button{
+    background: hsla(222, 6%, 67%, .2);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid transparent;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
 }

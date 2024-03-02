@@ -5,7 +5,7 @@ import './App.css'
 import { motion } from 'framer-motion';
 import Header from './components/Header';
 import Home from './pages/Home';
-import { BrowserRouter, Route, Routes ,Router  } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes   } from 'react-router-dom';
 
 import { useGlobalcontext } from './components/Appcontext';
 
@@ -13,7 +13,7 @@ import { useGlobalcontext } from './components/Appcontext';
 import Cursor from './components/Cursor';
 import Menu from './pages/Menu';
 import { debounce } from 'lodash';
-import { b } from 'vite/dist/node/types.d-jgA8ss1A';
+
 
  
 function App() {
@@ -69,14 +69,30 @@ const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
    document.body.setAttribute("class" , theme)
 
    
+   
    } )
  
   
   return (
     <>
-    <Header/>
-    <Home/>
-    <Menu/>
+ <Router>
+      
+      <Header/>
+    <Routes>
+    
+      <Route path='/' index element = {<Home/>}></Route>
+      <Route path='/Menu' element= {<Menu/>}></Route>
+      
+     
+    </Routes>
+    </Router>
+   
+   
+      
+   
+
+
+    
 
     
       

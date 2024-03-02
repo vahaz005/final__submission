@@ -6,6 +6,8 @@ import GsapMagnetic from './gsap';
 import { Link } from 'react-router-dom';
 
 function Header() {
+    const [ismenu , setIsMenu] = useState(false) ;
+    const [text , setText] = useState("MENU") ;
     const {theme , setTheme } =useGlobalcontext() ;
     const [url , setUrl] = useState("https://trionn.com/_next/static/media/light-mode-icon.035572eb.svg")
     const changetheme = () => {
@@ -17,6 +19,15 @@ function Header() {
             setUrl("https://trionn.com/_next/static/media/light-mode-icon.035572eb.svg")
         }
     } 
+const func = () => {
+    if(ismenu === false) {
+        setIsMenu(true)
+        setText("CLOSE") ;
+    } else {
+        setIsMenu(false)
+        setText("MENU");
+    }
+}
   return (
     <div className='header'>
         <div className="header__container">
@@ -41,17 +52,26 @@ function Header() {
                
             </div>
             <div className="menu">
-                <div className="text">MENU</div>
+                <div className="text">{text}</div>
+                <button className='text__button' onClick={(e)=>{
+                    e.preventDefault() ;
+                    func() ;
+                }}><Link to={"/Menu"} 
+                    
+                    >
+                    <div className="img">
+                       
+                       <span className='s1'></span>
+                       <span className='s2'></span>
+                       </div></Link></button>
+                
                
-                <div className="img">
-                   
-                    <span className='s1'></span>
-                    <span className='s2'></span>
+             
                     
                    
                     
 
-                </div>
+               
             </div>
 
         </div>

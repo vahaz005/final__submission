@@ -13,11 +13,27 @@ import Scrolling from '../components/Scrolling';
 import Joinus from '../components/Joinus';
 import Who from '../components/Who';
 import Dribble1 from '../components/Dribble1';
+import Loader from './Loader';
 
 function Home() {
+  const [isLoading, setIsLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 5000); // Simulating a 5-second loading time
+  }, []);
+
   return (
-    <>
-    <div className='main'>
+    
+    <div className="App">
+    {isLoading ? (
+      <Loader />
+    ) : (
+      <div>
+        {
+          <>
+          <div className='main'>
         <div className='main__div'>
             <div className="main__txt">
                 <motion.span className='txt1'
@@ -27,9 +43,19 @@ function Home() {
                 >roar in the</motion.span>
                 <span className='txt2'>digital wilderness.</span>
                 </div>
+
                
                 
         </div>
+        <div className="main__Para">
+          <span>WE ROAR WITH SUCCESS, DELIVERING THE TRIONN®</span>
+          <span>THROUGH VERSATILE DESIGN, BRANDING AND THE LATEST</span>
+          <span>TECH DEVELOPMENT TO COMPANIES.</span>
+          <GsapMagnetic><img src="https://trionn.com/_next/static/media/move-down.31fd25f2.svg" alt="" /></GsapMagnetic>
+          
+          
+        </div>
+
         <div className="button">
                   <div className="sub__button">
                     <button className='b1'
@@ -63,8 +89,15 @@ function Home() {
     <Dribble1/>
 
  
-    <Joinus/> 
-    </>
+    <Joinus/>
+    </> }
+       
+      </div>
+    )}
+  </div>
+    
+    
+    
   )
 }
 

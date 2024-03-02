@@ -35,18 +35,32 @@
     
     margin-left: 0rem;
     font-size: 10rem;
-    line-height: 7.9rem;
+    line-height: 9.9rem;
     letter-spacing: -6px;
     font-family: "Dirtyline 36Daysoftype 2022";
 }
 .left__sub__drag__subspan1{
     display: block;
     position: relative;
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
     
 }
 .left__sub__drag__subspan2{
     display: block;
     position: relative;
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
     
     
 }
@@ -137,3 +151,10 @@
 
     
   }
+  
+  @keyframes rights1 {
+    to {
+        background-size: 100% 100%;
+    }
+        
+    }
