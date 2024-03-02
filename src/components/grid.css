@@ -1,0 +1,149 @@
+.gridsection{
+    width: 100%; 
+    overflow: hidden; 
+    margin-top: -6rem; 
+    padding-top: 9rem; 
+    padding-bottom: 8rem;
+
+}
+.subgrid{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    height: 97vh;
+
+    gap: 1.25rem;
+    padding-bottom: 10rem; 
+    position: relative; 
+    margin: auto ; 
+    width: 89%;
+    padding-left: 4rem;
+    padding-right: 4rem; 
+ 
+    
+
+}
+.main41{
+    
+    background: rgba(31,32,34,.4);
+    transition: background 0.3  s ease; 
+   
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+.main41:hover {
+    background: rgba(221,53,0,.9);
+    
+}
+
+
+
+.main42{
+    
+    background: rgba(31,32,34,.4);
+    transition: background  0.3s ease;
+    top: 11rem;
+    
+   
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+    
+    
+    
+    
+.main42:hover {
+    color: black;
+    
+    
+    background: rgba(220,229,229,.9);
+    
+    
+    
+}
+.main43:hover {
+    color: black;
+    background: rgba(176,221,202,.9);
+}
+    .main43{
+        
+    
+    background: rgba(31,32,34,.4);
+    transition: background 0.3s ease ;
+   
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+.main44{
+    
+    top: 11rem;
+    
+    background: rgba(31,32,34,.4);
+    transition: background 0.3s ease;
+   
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    border-radius: 1.5rem;
+}
+.main44:hover {
+    background: rgba(244,227,66,.9);
+    color: black; 
+}
+.mainsub1{
+font-size: 6rem;
+line-height: .8;
+font-size: 8rem; 
+line-height: 0.8; 
+font-family: 'DM Mono ' , monospace;
+letter-spacing: -5px; 
+position: relative;
+    top: 3rem;
+    left: 4rem;
+
+
+
+margin-bottom: 4rem;
+}
+.mainsub2{
+    position: relative; 
+    display: inline-block; 
+   
+    
+
+}
+.supper{
+    
+        font-size: 65%;
+    
+        margin-top: -.5rem;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: top;
+    
+
+}
+.supper_sub{
+    position: relative ; 
+    display: inline-block; 
+
+}
+.currsub{
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 3rem;
+    line-height: 2.6rem;
+    transition: all .5s ease;
+    width: 100%;
+    align-self: flex-end;
+    text-align: right;
+    position: relative;
+
+    left: -8rem;
+    top: 6rem;
+    letter-spacing: -2px;
+}

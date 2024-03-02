@@ -1,0 +1,109 @@
+.recentmain{
+   
+    display: flex; 
+    height: 66vh; 
+    width: 100%; 
+   
+    
+
+
+
+}
+.right{
+  
+   
+    position: relative ;
+    left: 2%;
+    top: 10%;
+    width: 60%;
+    height: 70%;
+    
+    
+}
+.rights1{
+    color:  rgba(31,32,34,.4);;
+  display : block;
+  font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 8rem;
+    line-height: 7.9rem;
+    letter-spacing: -6px;
+    position: relative;
+    left: 0.11rem;
+    
+    background-clip: text;
+    background-repeat:no-repeat ;
+    background-size: 0% 100%;
+    background-image:  linear-gradient(90deg , #c5fcfc , #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline:view() ;
+    
+    
+    
+    
+    
+}
+
+.rights2{
+    display: block;
+    
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 8rem;
+    line-height: 7.9rem;
+    letter-spacing: -6px;
+    position: relative;
+    top: -1rem;
+    left: -15.5rem;
+    color: rgba(31, 32, 34, .4);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, #c5fcfc, #c5fcfc);
+    animation: rights1 linear;
+    animation-timeline: view();
+}
+      
+      
+
+
+.right div{
+    
+    height: 8%;
+    margin-bottom: 0rem;
+    position: relative;
+    top: 2rem;
+    font-family: "syne" , sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    
+    font-weight: 400; 
+    left: 1.5rem;
+
+
+}
+
+   
+    
+
+.left button {
+  
+    left: 20rem;
+    position: relative;
+    top: 19rem;
+    display: flex;
+    height: 11%;
+    width: 171%;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: var(--primary);
+    color: var(--primary);
+    background-color: #121315;
+}
+@keyframes rights1 {
+    to {
+        background-size: 100% 100%;
+    }
+        
+    }
