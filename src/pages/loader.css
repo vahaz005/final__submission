@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Loader.css */
 .loader {
     transition: opacity 0.5s, visibility 0.5s;
@@ -25,4 +26,33 @@
   .img{
     position: fixed;
   }
+=======
+/* Loader.css */
+.loader {
+    transition: opacity 0.5s, visibility 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 25%;
+  }
+  .loader__main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  .opacity-100 {
+    opacity: 1;
+  }
+  .img{
+    position: fixed;
+  }
+>>>>>>> 6a566d9accfa44fa13174d675e6fd0591533fc16
   
