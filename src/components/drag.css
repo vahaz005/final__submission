@@ -118,7 +118,7 @@
     border-radius: 10000px;
 }
 .slider__inner.dragging {
-    transform: scale(0.9); /
+    transform: scale(0.9); 
   }
   .p1{
     font-family: 'syne', sans-serif;
