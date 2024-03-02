@@ -274,12 +274,12 @@ function Dribble1() {
          
     </div>
         <div className="Dribble__main__subdiv">
-            <div className='upper1'><img src="./public/assets (2)/asset 15.webp" alt="" /></div>
-            <div className='lower1'><img src="./public/assets (2)/asset 16.webp" alt="" /></div>
-            <div className='upper2'><img src="./public/assets (2)/asset 17.webp" alt="" /></div>
-            <div className='lower2'><img src="./public/assets (2)/asset 18.webp" alt="" /></div>
-            <div className='upper3'><img src="./public/assets (2)/asset 19.webp" alt="" /></div>
-             <div className='lower3'><img src="./public/assets (2)/asset 20.webp" alt="" /></div>
+            <div className='upper1'><img src="/public/assets (2)/asset 15.webp" alt="" /></div>
+            <div className='lower1'><img src="/public/assets (2)/asset 16.webp" alt="" /></div>
+            <div className='upper2'><img src="/public/assets (2)/asset 17.webp" alt="" /></div>
+            <div className='lower2'><img src="/public/assets (2)/asset 18.webp" alt="" /></div>
+            <div className='upper3'><img src="/public/assets (2)/asset 19.webp" alt="" /></div>
+             <div className='lower3'><img src="/public/assets (2)/asset 20.webp" alt="" /></div>
 
         </div>
     </section>

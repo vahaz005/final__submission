@@ -48,13 +48,13 @@ opacity:1,
     <>
     <div className="vediowrapper">
 <video loop muted playsInline autoPlay>
-    <source src="./public/intro-video.mp4" type="video/mp4"/>
+    <source src="/public/intro-video.mp4" type="video/mp4"/>
 </video>
    
         </div>
         <div className="lion__svg">
           
-            <img src="./public/assets (2)/asset 32.svg" alt="" />
+            <img src="/public/assets (2)/asset 32.svg" alt="" />
           
          
         </div>
