@@ -13,6 +13,7 @@ import { useGlobalcontext } from './components/Appcontext';
 import Cursor from './components/Cursor';
 import Menu from './pages/Menu';
 import { debounce } from 'lodash';
+import { b } from 'vite/dist/node/types.d-jgA8ss1A';
 
  
 function App() {
@@ -66,6 +67,8 @@ const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   useEffect(()=>{
 
    document.body.setAttribute("class" , theme)
+
+   
    } )
  
   
