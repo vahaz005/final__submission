@@ -61,7 +61,7 @@ gsap.fromTo(".left__1" ,
       
         </div>
       <div className="right__1">
-      <img loading="lazy" src ={"./public/assets (2)/asset 4.webp"} alt="" />
+      <img loading="lazy" src ={"/public/assets (2)/asset 4.webp"} alt="" />
        
       </div>
         
