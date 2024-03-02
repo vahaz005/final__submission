@@ -10,6 +10,12 @@ import { useGlobalcontext } from './Appcontext';
 function Joinus() {
   const {theme , setTheme } = useGlobalcontext() ;
   const [hover , setHover] = useState(false) ;
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
  
 
   gsap.fromTo(".sub__sub__div1" ,
@@ -360,6 +366,7 @@ useEffect(()=>{
       <p>©2024 TRIONN<sup>®</sup>
       </p>
       <div><img src="./public/assets (2)/asset 26.svg" alt="" /></div>
+      
       </div>
   
     </section>

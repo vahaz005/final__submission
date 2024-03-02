@@ -6,6 +6,7 @@ import GsapMagnetic from './gsap';
 import { Link } from 'react-router-dom';
 
 function Header() {
+    const {isOverlayVisible, setIsOverlayVisible} = useGlobalcontext() ;
     const [ismenu , setIsMenu] = useState(false) ;
     const [text , setText] = useState("MENU") ;
     const {theme , setTheme } =useGlobalcontext() ;
@@ -28,6 +29,20 @@ const func = () => {
         setText("MENU");
     }
 }
+const [isPlaying, setIsPlaying] = useState(false);
+const audioRef = React.createRef();
+
+const toggleSound = () => {
+   if (isPlaying) {
+     audioRef.current.pause();
+  } else {
+    audioRef.current.play();
+  }
+  setIsPlaying(!isPlaying);
+};
+const toggleOverlay = () => {
+    setIsOverlayVisible(!isOverlayVisible);
+  };
   return (
     <div className='header'>
         <div className="header__container">
@@ -45,9 +60,23 @@ const func = () => {
                     
                
                 </div>
-                <GsapMagnetic><div className="togglemode2">
-                    <img src="https://trionn.com/_next/static/media/sound-mute.99b17403.svg" alt="" />
-                </div></GsapMagnetic>
+                <GsapMagnetic>
+                    <button className='sound' onClick={(e)=>{
+                        e.preventDefault() 
+                        toggleSound()
+
+                    }}> <div className="togglemode2"
+             
+             >
+     
+                 <img src={(isPlaying? "https://trionn.com/_next/static/media/sound.b0076745.svg":"https://trionn.com/_next/static/media/sound-mute.99b17403.svg")} alt="" />
+             </div>
+             <audio ref={audioRef} loop>
+        <source src="/assets/audio/jungle.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+             </button>
+                   </GsapMagnetic>
                 
                
             </div>
@@ -55,15 +84,16 @@ const func = () => {
                 <div className="text">{text}</div>
                 <button className='text__button' onClick={(e)=>{
                     e.preventDefault() ;
-                    func() ;
-                }}><Link to={"/Menu"} 
+                    toggleOverlay()
+                    func()
+                }}> 
                     
-                    >
+                    
                     <div className="img">
                        
                        <span className='s1'></span>
                        <span className='s2'></span>
-                       </div></Link></button>
+                       </div></button>
                 
                
              

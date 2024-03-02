@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { motion } from 'framer-motion';
+import Overlay from './components/Overlay';
 import Header from './components/Header';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes   } from 'react-router-dom';
@@ -18,6 +19,7 @@ import { debounce } from 'lodash';
  
 function App() {
 const {theme , setTheme } = useGlobalcontext();
+const{isOverlayVisible ,setIsOverlayVisible} = useGlobalcontext() 
 
   
   
@@ -75,17 +77,12 @@ const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
   return (
     <>
- <Router>
-      
-      <Header/>
-    <Routes>
-    
-      <Route path='/' index element = {<Home/>}></Route>
-      <Route path='/Menu' element= {<Menu/>}></Route>
-      
-     
-    </Routes>
-    </Router>
+    <Header/>
+    <Overlay show={isOverlayVisible} >
+      <Menu/>
+      </Overlay>
+      <Home/>
+ 
    
    
       

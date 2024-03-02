@@ -10,6 +10,7 @@ import Imagereverse  from '../components/Imagereverse';
 import Drag from '../components/Drag';
 import Grid from '../components/Grid';
 import Scrolling from '../components/Scrolling';
+
 import Joinus from '../components/Joinus';
 import Who from '../components/Who';
 import Dribble1 from '../components/Dribble1';
@@ -23,6 +24,7 @@ function Home() {
       setIsLoading(false);
     }, 5000); // Simulating a 5-second loading time
   }, []);
+ 
 
   return (
     
@@ -75,6 +77,7 @@ function Home() {
                   </div>
                 </div>
     </div>
+    
     <Vedio/>
    
     <Recent/>
