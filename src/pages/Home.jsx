@@ -36,14 +36,14 @@ function Home() {
           <>
           <div className='main'>
         <div className='main__div'>
-            <div className="main__txt">
+            <h1 className="main__txt">
                 <motion.span className='txt1'
                 initial = {{opacity:0 , y:200}}
                 animate = {{opacity:1 , y:0}}
                 transition={{duration : 1, type : "spring"}}
                 >roar in the</motion.span>
                 <span className='txt2'>digital wilderness.</span>
-                </div>
+                </h1>
 
                
                 

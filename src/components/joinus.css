@@ -143,7 +143,7 @@
 .sub__roar{
     display: flex;
     flex-direction: column; 
-    font-size: 11vw;
+    font-size: 13vw;
     line-height: 12vw;
     letter-spacing: -2px;
    
@@ -302,5 +302,19 @@ position: relative;
     to {
         background-size: 100% 100%;
     }
+        
+    }
+    @media (max-width:1080px) {
+        .foot2{
+            grid-template-rows: repeat(3 , 1fr);
+            grid-template-columns: 1fr;
+            gap: 3vh;
+        }
+        .foot2 div{
+            top: 4vh;
+        }
+        .foot3{
+            top: 4vh;
+        }
         
     }

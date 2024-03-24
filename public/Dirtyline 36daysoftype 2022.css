@@ -8,4 +8,26 @@
           
     text-rendering: optimizeLegibility;
 }
+/* @media (min-width: 1280px){
+html {
+    font-size: 1.5vw;
+}}
+
+@media (min-width: 1080px){
+html {
+    font-size: 1.8vw;
+}}
+@media (min-width: 640px){
+html {
+    font-size: 2vw;
+}}
+@media (min-width: 280px){
+html {
+    font-size: 2.5vw;
+}}
+html {
+    font-family: Syne, sans-serif;
+    font-size: 1vw;
+    font-variant-numeric: lining-nums;
+} */
 

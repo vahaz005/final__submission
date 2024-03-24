@@ -18,14 +18,17 @@
 .main__txt{
     width: 80%; 
     height: 40%;
-    
-    font-size: 5rem;
+    text-align: center;
+   
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    margin-bottom: 8rem;
+    /* margin-bottom: 8rem;
+    font-size: 9vw;
+    line-height: 10vh; */
+    letter-spacing: -0.065rem;
     
 
 
@@ -34,29 +37,27 @@
     width: 100%;
     width: 100%;
     height: 28%;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: var(--font);
     font-weight: 400;
-    font-size: 9vw;
-    line-height: 10vh;
-    letter-spacing: -0.065rem;
+  position: relative; 
+  
+  top: -4vh;
     
 }
 .txt2{
     width: 100%;
     height: 28%;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: var(--font);
     font-weight: 400;
-    font-size: 9vw;
-    line-height: 25vh;
-    letter-spacing: -2px;
+   
 }
 .button{
     display: flex; 
@@ -104,7 +105,7 @@
     position: relative;
     font-size: 0.85rem;
     line-height: 0.95rem;
-    top: -16rem;
+    top: -42vh;
     left: 1rem;
     display: flex;
     font-family: 'Syne' , sans-serif;
@@ -139,11 +140,52 @@
     position: relative ;
     top: 1rem;
 }
+.main__txt {
+    font-family: "Dirtyline 36Daysoftype 2022";
+    font-size: 8.125rem;
+    line-height: 6.25rem;
+}
+@media (min-width: 640px){
+.main__txt {
+       font-size: 5.175rem;
+       line-height: 4.125rem;
+       letter-spacing: -1px;
+   }
+   }
 
-@media (min-width: 1080px){
+@media (min-width: 1440px ){
+    .main__txt {
+    font-size: 4.85rem;
+    line-height: 3.65rem;
+    letter-spacing: -2px;
+}
+}
+@media (max-width: 1536px ){
+    .main__txt {
+        font-size: 4.85rem;
+        line-height: 3.65rem;
+        letter-spacing: -2px;
+    }
+    }
+@media (min-width: 1280px){
+.main__txt {
+    font-size: 6rem;
+    line-height: 4.5rem;
+    letter-spacing: -2px;
+}
+}
 
-.txt2{
-    flex-direction: column;
-
+@media (min-width: 280px){
+    .txt2{
+        top: -7vh;
+        position: relative;line-height: 5rem;
+    }
+.main__txt{
+    
+    font-size: 6rem;
+    line-height: 3rem;
+    position: relative;
+    top: -3rem;
+    letter-spacing: -1px;
 }
 }
