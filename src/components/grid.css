@@ -144,6 +144,23 @@ margin-bottom: 4rem;
     position: relative;
 
     left: -8rem;
-    top: 6rem;
+    top: 2vh;
     letter-spacing: -2px;
+}
+@media (max-width:1080px){
+    .subgrid{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+
+    }
+    .main41 , .main42 , .main43  , .main44 {
+        width: 100%;
+    }
+    .main42 , .main44 {
+        top: 0rem;
+    }
+    .gridsection{
+        height: 175vh;
+    }
 }

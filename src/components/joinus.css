@@ -21,8 +21,8 @@
     display: flex;
     flex-direction: column; 
     font-family:  var(--font);
-    font-size: 10rem;
-    line-height: 9.3rem; 
+    font-size: 13vw;
+    line-height: 13vw; 
     letter-spacing: -6px;
     
 
@@ -143,8 +143,8 @@
 .sub__roar{
     display: flex;
     flex-direction: column; 
-    font-size: 9rem;
-    line-height: 9.1rem;
+    font-size: 11vw;
+    line-height: 12vw;
     letter-spacing: -2px;
    
     

@@ -34,7 +34,7 @@ display: flex;
 justify-content: center;
 flex-direction: row-reverse;
 position: relative; 
-top: -4rem;
+top: 4vh;
 }
 .right__1r{
     height: 91%;

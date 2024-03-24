@@ -33,7 +33,7 @@ display: flex;
 justify-content: center;
 flex-direction: row-reverse;
 position: relative;
-top: -9rem;
+top: 4vh;
 }
 .right__12{
     height: 91%;
