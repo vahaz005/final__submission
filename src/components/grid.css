@@ -156,6 +156,8 @@ margin-bottom: 4rem;
     }
     .main41 , .main42 , .main43  , .main44 {
         width: 100%;
+        left:-2rem
+         ;
     }
     .main42 , .main44 {
         top: 0rem;
@@ -163,4 +165,36 @@ margin-bottom: 4rem;
     .gridsection{
         height: 175vh;
     }
+}
+@media (min-width:640px) {
+    .currsub{
+    font-size: 2.9rem;
+         
+    }
+
+    
+}
+@media (min-width:280px) {
+    .currsub{
+    
+         font-size: 2rem;
+    }
+
+    
+}
+@media (min-width:1280px) {
+    .currsub{
+    
+         font-size: 3rem;
+    }
+
+    
+}
+@media (min-width:1024px) {
+    .currsub{
+    font-size: 3rem;
+         
+    }
+
+    
 }

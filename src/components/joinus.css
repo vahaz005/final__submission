@@ -100,9 +100,7 @@
     transform: rotate(0deg);
     transition: transform 0.5s;
 }
-.socail__image__hover{
-    transform: rotate(360deg);
-}
+
 .main2__suvdiv:hover {
     width: 110% ;
     
@@ -157,7 +155,7 @@
 .lets__talk__button{
   
     font-size: 1rem;
-    left: 23rem;
+    left: -9rem;
     position: relative;
     top: 9rem;
     display: flex;
@@ -184,7 +182,8 @@
     justify-content: center;
     border-radius: 9999px;
     border-width: 2px;
-    border-color: #3f4144;.lets__talk__button{
+    border-color: #3f4144;
+    .lets__talk__button{
   
         font-size: 1rem;
         left: 23rem;
@@ -304,17 +303,282 @@ position: relative;
     }
         
     }
-    @media (max-width:1080px) {
-        .foot2{
-            grid-template-rows: repeat(3 , 1fr);
-            grid-template-columns: 1fr;
-            gap: 3vh;
+    @media (min-width: 280px){
+        .time__to__roar__main{
+            position: relative;
+            top: -28rem;
+            
         }
-        .foot2 div{
-            top: 4vh;
+        .main2__suvdiv{
+            font-size: 1.9rem;
+            height: 6rem;
+            width: 29rem;
+
         }
-        .foot3{
-            top: 4vh;
+        .social__image{
+            height: 34px;
+            width: 55px;
+        }
+        .lets__talk__button{
+            left: 0rem;
+            position: relative;
+            top: 0rem;
+            display: flex;
+            height: 236%;
+            width: 31%;
+        }
+        .time__to__roar__main__subdiv{
+            display: flex;
+            flex-direction: column;
+        }
+        .roar{
+           
+        }
+        .sub__sub   , .sub__roar {
+            
+            font-size: 5rem;
+            line-height: 5.3rem;
+            letter-spacing: -2px;
+        }
+        .who__main__text{
+            font-size: 2.9rem;
+            line-height: 3.2rem;
+
+        }
+       
+            }
+            @media (min-width: 640px){
+                .time__to__roar__main{
+                    position: relative;
+                    top: -23rem;
+                }
+                .social__image{
+                    transform: rotate(0deg);
+                    transition: transform 0.5s;
+                }
+                .socail__image__hover{
+                    transform: rotate(360deg);
+                }
+                .social__image{
+                    height: 62px;
+                    width: 62px;
+                }
+                .main2__suvdiv{
+                    font-size: 3rem;
+                    line-height: 2.5rem ;
+width: 36rem;
+                }
+                .lets__talk__button{
+                    left: -30rem;
+                    position: relative;
+                    top: 16rem;
+                    display: flex;
+                    height: 18%;
+                    width: 218%;
+                }
+                .time__to__roar__main__subdiv{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .roar{
+                    top: -4rem;
+                }
+                .sub__sub__div2{
+                    top: -4rem;
+
+                }
+                .sub__sub__div3{
+                    top: -8rem;
+                }
+                /* .left button{
+                    position: relative;
+                    left: 14rem;
+            top: 26rem;
+                } */
+                /* .right div
+                {
+                    font-size: 1.2rem;
+                    line-height: 1rem;
+                   
+                    position: relative;
+                    
+                }
+                .rights1{
+                    top: 2rem;
+                } */
+            .sub__sub  , .sub__roar {
+                font-size: 8rem;
+                line-height: 10.125rem;
+                letter-spacing: -2px;}
+                .who__main__top__span2{
+                    position: relative;
+                    top: -8vh;
+                }
+                .who__main__text{
+                    font-size: 2.375rem;
+                    line-height: 3rem;
+
+                }
         }
         
-    }
+        @media (min-width:1024px) {
+            .time__to__roar__main{
+                position: relative;
+    top: -2rem;
+            }
+            .social__image{
+                transform: rotate(0deg);
+                transition: transform 0.5s;
+            }
+            .socail__image__hover{
+                transform: rotate(360deg);
+            }
+            .social__image{
+                height: 62px;
+                width: 62px;
+            }
+            .main2__suvdiv{
+                display: flex;
+                justify-content: space-between ; 
+                align-items: center; 
+                width: 79%; 
+                height: 30%;
+                font-size: 3rem;
+                line-height: 2.5rem ;
+                font-family: 'syne' , sans-serif;
+                
+                border-bottom: 1px solid white;
+                transition: width 0.5s ease-in-out; 
+            
+            
+            
+            }
+            .lets__talk__button{
+  
+                font-size: 1rem;
+                left: -9rem;
+                position: relative;
+                top: 9rem;
+                display: flex;
+                height: 20%;
+                width: 241%;
+                align-items: center;
+                justify-content: center;
+                border-radius: 9999px;
+                border-width: 2px;
+                border-color: var(--primary);
+                color: black;
+                background-color: var(--primary);
+            }
+            .time__to__roar__main__subdiv{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .roar{
+top: -2rem;
+            }
+            .who__main__top , .sub__roar{
+                font-size: 11rem;
+                line-height: 10.35rem;
+                letter-spacing: -2px;
+            }
+            .sub__sub  {
+                font-size: 2.1rem;
+                line-height: 2.7rem;
+            }
+            
+        }
+        
+        @media (min-width: 1280px){
+            .time__to__roar__main{
+                position: relative;
+    top: -2rem;
+            }
+            .social__image{
+                transform: rotate(0deg);
+                transition: transform 0.5s;
+            }
+            .socail__image__hover{
+                transform: rotate(360deg);
+            }
+            .social__image{
+                height: 62px;
+                width:62px;
+            }
+            .main2__suvdiv{
+                display: flex;
+                justify-content: space-between ; 
+                align-items: center; 
+                width: 79%; 
+                height: 30%;
+                font-size: 3rem;
+                line-height: 2.5rem ;
+                font-family: 'syne' , sans-serif;
+                
+                border-bottom: 1px solid white;
+                transition: width 0.5s ease-in-out; 
+            
+            
+            
+            }
+            .lets__talk__button{
+  
+                font-size: 1rem;
+                left: -9rem;
+                position: relative;
+                top: 9rem;
+                display: flex;
+                height: 20%;
+                width: 241%;
+                align-items: center;
+                justify-content: center;
+                border-radius: 9999px;
+                border-width: 2px;
+                border-color: var(--primary);
+                color: black;
+                background-color: var(--primary);
+            }
+            .time__to__roar__main__subdiv{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .roar{
+top: -2rem;
+            }
+            .sub__sub__div2{
+                top: -1rem;
+            }
+            .sub__sub__div3{
+                top: -3rem;
+            }
+        .sub__sub  , .sub__roar {
+            font-size: 11rem;
+            line-height: 10.1rem;
+            letter-spacing: -6px;
+        }
+        .who__main__text{font-size: 2.5rem;
+            line-height: 3rem;
+
+        }
+        .who__main__top__span2{
+            position: relative;
+            top: -2rem;
+        }
+
+       
+        }
+            @media (min-width: 1440px ) and (max-width:1536px){
+            .sub__sub , .sub__roar{
+                font-size: 8rem;
+            line-height: 5.9rem;
+            letter-spacing: -6px;
+             }
+
+             .who__main__text{
+                font-size: 2.15rem;
+                line-height: 2.5rem;
+             }
+            }

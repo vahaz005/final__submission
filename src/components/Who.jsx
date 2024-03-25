@@ -155,11 +155,11 @@ function Who() {
         </div>
 
         <div className='who__main__text'>
-            <span>As an award-winning agency</span>
-            <span>within the digital jungle, TRIONN®</span>
-            <span>transcends aesthetics, crafting</span>
-            <span>your vision into a legacy that</span>
-            <span>endures.</span>
+            <span>As an award-winning agency within the</span>
+            <span>digital jungle, TRIONN® transcends</span>
+            <span>aesthetics, crafting your vision into a</span>
+            <span>legacy that endures.</span>
+
         </div>
         <div className="who__main__text2">
             <p>We roar with creativity, staying updated with the latest tech to make your brand a formidable force in the digital wilderness and deliver exceptional website and app experiences.

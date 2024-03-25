@@ -24,9 +24,9 @@
     color:  rgba(31,32,34,.4);;
   display : block;
   font-family: var(--font);
-    font-size: 8rem;
+    /* font-size: 8rem;
     line-height: 7.9rem;
-    letter-spacing: -6px;
+    letter-spacing: -6px; */
     position: relative;
     left: 0.11rem;
     
@@ -47,9 +47,9 @@
     display: block;
     
     font-family: var(--font);
-    font-size: 8rem;
+    /* font-size: 8rem;
     line-height: 7.9rem;
-    letter-spacing: -6px;
+    letter-spacing: -6px; */
     position: relative;
     top: -1rem;
     left: -15.5rem;
@@ -72,11 +72,12 @@
     position: relative;
     top: 2rem;
     font-family: "syne" , sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.85rem;
     line-height: 1.85rem;
     
     font-weight: 400; 
     left: 1.5rem;
+    letter-spacing: 0px;
 
 
 }
@@ -107,3 +108,55 @@
     }
         
     }
+    @media (min-width: 280px){
+.right {
+    font-size: 5rem;
+    line-height: 5.3rem;
+    letter-spacing: -2px;
+}
+    }
+    @media (min-width: 640px){
+        .left button{
+            position: relative;
+            left: 14rem;
+    top: 26rem;
+        }
+        .right div
+        {
+            font-size: 1.2rem;
+            line-height: 1rem;
+           
+            position: relative;
+            
+        }
+        .rights1{
+            top: 2rem;
+        }
+    .right {
+        font-size: 8rem;
+        line-height: 9.125rem;
+        letter-spacing: -2px;}
+}
+@media (min-width:1024px) {
+    .right{
+        font-size: 11rem;
+        line-height: 10.35rem;
+        letter-spacing: -2px;
+    }
+    
+}
+@media (min-width: 1280px){
+.right {
+    font-size: 11rem;
+    line-height: 10.1rem;
+    letter-spacing: -6px;
+}
+}
+    @media (min-width: 1440px ) and (max-width:1536px){
+     .right{
+        font-size: 8rem;
+    line-height: 5.9rem;
+    letter-spacing: -6px;
+     }
+    }
+

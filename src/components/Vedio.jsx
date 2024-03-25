@@ -5,45 +5,45 @@ gsap.registerPlugin(ScrollTrigger);
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
-function Vedio() {   gsap.fromTo(".vediowrapper video" ,
-{
-  scale:0.14 , y:0 , borderRadius:99999,
-},
+ function Vedio() {  // gsap.fromTo(".vediowrapper video" ,
+// {
+//   scale:0.14 , y:0 , borderRadius:99999,
+// },
 
- {
-   y:300, borderRadius:12 , scaleX:1 , scaleY:1 ,
-     duration: 1,
+//  {
+//    y:300, borderRadius:12 , scaleX:1 , scaleY:1 ,
+//      duration: 1,
     
-    scrollTrigger: {
-       trigger: ".vediowrapper video",
-       start:"bottom bottom " ,
-         scrub: true,
-      markers: false,
-       toggleActions: 'play pause reverse complete'   } 
-       }
-        )
-gsap.fromTo(".lion__svg" ,
-{
-  x:1168 ,
-  opacity:0 ,
-},
-{
-opacity:1,
+//     scrollTrigger: {
+//        trigger: ".vediowrapper video",
+//        start:"bottom bottom " ,
+//          scrub: true,
+//       markers: false,
+//        toggleActions: 'play pause reverse complete'   } 
+//        }
+//         )
+// gsap.fromTo(".lion__svg" ,
+// {
+//   x:1168 ,
+//   opacity:0 ,
+// },
+// {
+// opacity:1,
 
  
-  x:980,
+//   x:980,
     
-    scrollTrigger: {
-        trigger: ".lion__svg",
-        start:"bottom bottom",
+//     scrollTrigger: {
+//         trigger: ".lion__svg",
+//         start:"bottom bottom",
        
         
        
-       scrub:true,
-        markers: false,
-        toggleActions: 'play pause reverse complete'
-    }  
-}) 
+//        scrub:true,
+//         markers: false,
+//         toggleActions: 'play pause reverse complete'
+//     }  
+// }) 
   return (
     <>
     <div className="vediowrapper">
