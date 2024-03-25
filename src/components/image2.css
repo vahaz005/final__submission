@@ -40,7 +40,7 @@ top: 4vh;
         left: 3rem;
         position: relative;
         width: 56%;
-        overflow: hidden;
+        /* overflow: hidden; */
         z-index: 10000;
 }
 .right__12 img{
@@ -72,4 +72,26 @@ top: 4vh;
     border-color: var(--primary);
     color: var(--primary);
    
+}
+
+/* Media  */
+@media screen and (max-width: 700px) {
+    .sub__container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left__12{
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .right__12{
+        left: 0;
+        margin-right: 130px;
+    }
+    .right__12 img{
+        width: 25rem;
+        
+
+    }
+
 }

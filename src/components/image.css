@@ -82,17 +82,30 @@ flex-direction: row-reverse;
     color: var(--primary);
 
 }
-@media  (max-width:1080px ) {
+@media  (max-width:700px ) {
     .sub__container{
-        flex-direction: column-reverse; 
+       flex-direction: column-reverse;  
        align-items: center;
        top: 3vh;
        height: 104vh;
-       position: relative;
+        position: relative;
+       
+    }
+    .sub__containerr{
+        align-items: center;
+        justify-content: center;
     }
     .right__1{
-        width: 100%;
+        /* width: 100%; */
+        width: 25rem;
         height: 104vh;
+        left: 0;
+    }
+    .left__1{
+        align-items: center;
+    }
+    .left__1r{
+        align-items: center;
     }
     
 }
