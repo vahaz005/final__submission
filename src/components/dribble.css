@@ -71,3 +71,43 @@ margin-top: 16rem;
     color: var--primary;
    
 }
+@media (min-width:280px) {
+    .behind{
+        position: relative;
+    }
+    .Dribble__main{
+        position: relative;
+        top: -75rem;
+    }
+    
+}
+@media (min-width:640px) {
+    .behind{
+        position: relative;
+    }
+    .Dribble__main{
+        position: relative;
+        top: -75rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .behind{
+        position: relative;
+    }
+    .Dribble__main{
+        position: relative;
+        top: -15rem;
+    }
+}
+
+@media (min-width:1280px) {
+    .behind{
+        position: relative;
+    }
+    .Dribble__main{
+        position: relative;
+        top: -15rem;
+    }
+}
+

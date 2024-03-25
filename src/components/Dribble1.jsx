@@ -1,13 +1,16 @@
 import React from 'react'
 import './dribble.css'
 import gsap from 'gsap' ;
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger , matchMedia);
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GsapMagnetic from './gsap';
+import { min } from 'lodash';
+import { px } from 'framer-motion';
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Dribble1() {
+ 
     gsap.fromTo(".upper1" ,
     {
       x:0 , 
@@ -259,6 +262,33 @@ function Dribble1() {
         } 
       } 
     )  
+    let mn  = gsap.matchMedia() ;
+    mn.add("(min-width:640px)" , () =>{
+      gsap.to(".upper1" ,
+      {
+      
+      x:-474, 
+      y:299 ,
+     
+      
+      
+        
+         
+          
+          scrollTrigger: {
+              trigger: ".upper1",
+              start:"80% bottom",
+              
+              
+             
+             scrub:true,
+              markers: false,
+              toggleActions: 'play pause reverse complete'
+          } 
+        } 
+      ) 
+  
+    })
   return (
     <>
     <section className='Dribble__main'>

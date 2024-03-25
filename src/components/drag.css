@@ -84,6 +84,7 @@
   top:6rem; 
   gap: 39px; 
   display: grid; 
+  grid-auto-flow: row;
   grid-template-columns: repeat(5 , 1fr);
  
   transition: 0s ease-in;
@@ -94,8 +95,8 @@
     border: 2px solid white;
     transition: border 0.3s ease;
     border-radius: 2rem; 
-    height: 85%;
-    width: 88vb;
+    height: 68%;
+    width: 79vb;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -112,10 +113,11 @@
     
 
 }
-.slider__inner img {
+.people {
     height: 30%; 
     width: 30%; 
     border-radius: 10000px;
+    margin-top: 4rem;
 }
 .slider__inner.dragging {
     transform: scale(0.9); 
@@ -128,6 +130,9 @@
     font-family: 'syne' , sans-serif; 
     font-size: 1rem;
   }
+.arrow{
+  position: relative;
+}
  .slider__inner button {
     background: #eb0000;
     border-color: #eb0000;
@@ -159,6 +164,10 @@
         
     }
     @media (min-width: 280px){
+      .dragmain{
+            top: -40rem;
+    position: relative;
+      }
       .right__sub__drag{
         position: relative;
         top: -1rem;
@@ -184,6 +193,10 @@
      
           }
           @media (min-width: 640px){
+            .dragmain{
+                  top: -40rem;
+    position: relative;
+            }
 
             .sub__drag{
               display:flex;
@@ -235,6 +248,11 @@
       }
       
       @media (min-width:1024px) {
+        .dragmain{
+              top: -6rem;
+              position: relative;
+            
+        }
         .sub__drag{
           display:flex;
           justify-content: space-between;
@@ -260,6 +278,10 @@
       }
       
       @media (min-width: 1280px){
+        .dragmain{
+               top: -6rem;
+               position: relative;
+        }
         .sub__drag{
           display:flex;
           justify-content: space-between;

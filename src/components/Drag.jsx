@@ -142,11 +142,11 @@ onMouseDown={handleMouseDown}
       className={`slider__inner ${clickedIndex === index ? 'dragging' : ''}`}
       onDoubleClick={() => handleDoubleClick(index)}
       onAnimationEnd={handleAnimationEnd}>
-        <img src={info.url} alt="" />
+        <img className="people"src={info.url} alt="" />
         <p className='p1'>{info.name}</p>
         <p className='p2'>{info.discription}</p>
         <GsapMagnetic><button><span>Watch now!</span>
-        <img src="https://trionn.com/_next/static/media/play.6bd15bb3.svg" alt="" />
+        <img className='arrow' src="https://trionn.com/_next/static/media/play.6bd15bb3.svg" alt="" />
         </button></GsapMagnetic> 
        
 
