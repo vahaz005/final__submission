@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    top: -8rem;
 }
 .vediowrapper video {
   
@@ -41,8 +42,28 @@
     
     
 }
-@media  (max-width:700px ) {
+@media (min-width:280px) {
     .vediowrapper{
-        top: 0;
+        top: -11rem;
     }
+    
+}
+@media (min-width:640px) {
+    .vediowrapper{
+
+        top: -12rem;
+    }
+    
+}
+@media (min-width:1024px) {
+    .vediowrapper{
+top: -8rem;
+    }
+    
+}
+@media (min-width:1280px) {
+    .vediowrapper{
+top: -8rem;
+    }
+    
 }

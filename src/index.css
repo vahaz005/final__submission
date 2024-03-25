@@ -4,7 +4,7 @@
   --mouse-x: 50%;
   --mouse-y: 50%;
 }
-html, body {
+ body {
   max-width: 100%;
   overflow-x: hidden;
   scrollbar-color: rgba(197,252,252,.5) #121315;

@@ -82,6 +82,11 @@ const toggleOverlay = () => {
             </div>
             <div className="menu">
                 <div className="text">{text}</div>
+                 <div className="img">
+                       
+                       <span className='s1'></span>
+                       <span className='s2'></span>
+                       </div>
                 <button className='text__button' onClick={(e)=>{
                     e.preventDefault() ;
                     toggleOverlay()
@@ -89,11 +94,7 @@ const toggleOverlay = () => {
                 }}> 
                     
                     
-                    <div className="img">
-                       
-                       <span className='s1'></span>
-                       <span className='s2'></span>
-                       </div></button>
+                   </button>
                 
                
              
